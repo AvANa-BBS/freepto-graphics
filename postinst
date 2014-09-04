@@ -5,7 +5,7 @@ if [ "$1" = "configure" -o "$1" = "abort-upgrade" ]; then
     # Alternatives for the background
     while read background priority; do
         update-alternatives --install \
-            /usr/share/images/freepto-graphics/desktop-background \
+            /usr/share/images/desktop-base/desktop-background \
             desktop-background \
             /usr/share/images/freepto-graphics/$background $priority
     done << EOF
