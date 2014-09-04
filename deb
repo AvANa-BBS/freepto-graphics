@@ -8,8 +8,5 @@ Description: Documentation for freepto
  This include misc docs in multiple languages
 Postinst: postinst
 Prerm: prerm
-Files: freeptodoc /usr/bin
- freepto-docs.desktop /usr/share/applications
- cryptordie.desktop /usr/share/applications
- freepto_1024x768.png /usr/share/images/freepto-graphics
+Files: freepto_1024x768.png /usr/share/images/freepto-graphics
  freepto-desktop.xml /usr/share/images/freepto-graphics
