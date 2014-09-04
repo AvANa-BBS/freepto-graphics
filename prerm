@@ -8,6 +8,6 @@ if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
           ; do
         update-alternatives --remove desktop-background /usr/share/images/freepto-graphics/$background
     done
-    update-alternatives --remove desktop-background.xml /usr/share/images/desktop-base/freepto-desktop.xml
+    update-alternatives --remove desktop-background.xml /usr/share/images/freepto-graphics/freepto-desktop.xml
 
 fi
