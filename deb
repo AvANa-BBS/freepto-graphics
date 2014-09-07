@@ -1,11 +1,11 @@
 Section: x11
 Priority: optional
 Standards-Version: 3.9.2
-Package: freepto-docs
-Version: 0.1-2
+Package: freepto-graphics
+Version: 0.1.1
 Maintainer: boyska <piuttosto@logorroici.org>
-Description: Documentation for freepto
- This include misc docs in multiple languages
+Description: Freepto artwork
+ Wallpaper and more!
 Postinst: postinst
 Prerm: prerm
 Files: freepto-wallpaper_1024x768.png /usr/share/images/freepto-graphics
