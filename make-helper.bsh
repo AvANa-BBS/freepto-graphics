@@ -6,7 +6,7 @@
 
 ## generic deb build script version 0.6
 
-set -x
+# set -x
 
 if [ -f /usr/lib/pre.bsh ]; then
    source /usr/lib/pre.bsh
