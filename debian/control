@@ -6,6 +6,7 @@ Source: freepto-graphics
 Section: x11
 Priority: optional
 Maintainer: boyska <piuttosto@logorroici.org>
+Depends: ${misc:Depends}
 Build-Depends: debhelper (>= 8), faketime
 Vcs-Git: https://github.com/avana-bbs/freepto-graphics
 Standards-Version: 3.9.4
